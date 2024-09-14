@@ -17,8 +17,8 @@ function Home2() {
               myself
             </h1>
             <p className="home-about-body">
-              I’m a passionate Computer Science student with a focus on 👨‍💻 web
-              development
+              I’m a passionate<span className="purple"> Computer Science </span>{" "}
+              student with a focus on 👨‍💻 web development
               <br />
               <br /> especially in creating modern and efficient web
               applications using technologies like

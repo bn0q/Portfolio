@@ -1,7 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
-
+import { FaPersonSwimming } from "react-icons/fa6";
+import { IoMdFootball } from "react-icons/io";
+import { IoLogoGameControllerB } from "react-icons/io";
 function AboutCard() {
   return (
     <Card className="quote-card-view">
@@ -9,29 +10,34 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">ADITHEP THABTHAEM </span>
-            from <span className="purple">Kanchanaburi, Thailand.</span>
+            from <span className="purple">KANCHANABURI,THAILAND.</span>
+            <br />a passionate<span className="purple"> Computer Science </span>
+            student with a deep interest in software development
             <br />
-            I am currently employed as a software developer at Juspay.
+            Over the past few years, I've honed my skills in both
+            <span className="purple"> front-end </span>and
+            <span className="purple"> back-end</span> development, and I
+            particularly enjoy working with React.js, Next.js, and Unity for
+            game development
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            Outside of coding, I enjoy these hobbies and activities!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <IoMdFootball /> Playing Sports e.g. Swimming, Football, Badminton
             </li>
             <li className="about-activity">
-              <ImPointRight /> Swimming Coach L2
+              <IoLogoGameControllerB /> Playing Games e.g. Valorant, The Crew 2,
+              Grounded
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling
+              <FaPersonSwimming /> Swimming Coach L2 Certified by the Swimming
+              Association of Thailand
             </li>
           </ul>
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "It’s simple: you either know or you don’t. If you don’t, go learn"{" "}
           </p>
           <footer className="blockquote-footer">Adithep</footer>
         </blockquote>
